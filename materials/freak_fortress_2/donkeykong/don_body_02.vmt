@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"freak_fortress_2/donkeykong/don_body_02"
+               "$nocull"	"1"
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "freak_fortress_2/shrek/shrekbody"
+	"$bumpmap" "freak_fortress_2/shrek/shrekbodynm"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[.1 0.4 1]"
+	"$halflambert" "1"
+
+	"$alphatest" 1
+	"$nocull" 1
+}

@@ -1,0 +1,60 @@
+//This Texture is made by Rafaël De Jongh and is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+// You are not allowed to alter, distribute or use this work for commercial purposes Without Permission of the author: Rafaël De Jongh
+"VertexlitGeneric"
+{
+	"$basetexture"	 "freak_fortress_2\warhammer\Sword"
+	"$bumpmap"	 "freak_fortress_2\warhammer\Sword_normal"
+	"$normalmapalphaenvmapmask" "1"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[ 0.6 0.2 0.1 ]"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+
+	"$yellow" "0"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+	"$phong" "1"
+	"$phongexponent" "33"
+	"$phongboost" "3"
+	"$phongfresnelranges" "[.3 .8 1]"
+	"$phongwarptexture"  	"freak_fortress_2\warhammer\phongwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "28"
+	"$rimlightboost" "0.4"
+
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

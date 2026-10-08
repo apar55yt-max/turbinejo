@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "freak_fortress_2\rayman/rayman_sheet"
+//	"$translucent" 1
+	"$alphatest" "1"
+	"$model" 1
+                "$nocull" "1"
+}

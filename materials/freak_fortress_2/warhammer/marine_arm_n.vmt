@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "freak_fortress_2\warhammer\Marine_Arm_n"
+                "$surfaceprop"	"metal"
+}
